@@ -1,0 +1,10 @@
+Footer {
+    background-color: #b22a2a;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+}

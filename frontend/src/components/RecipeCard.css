@@ -1,0 +1,24 @@
+.main-card{
+    width:400px;
+    height:675px;
+    background: #b22a2a;
+    border: 2px solid #e4b326; 
+    color: #f0ddbf;
+    border-radius: 25px;
+    margin-inline: 80px;
+    padding: 25px;
+}
+
+.recipeImage {
+    height: 210px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #e4b326;
+}
+
+.recipeVideo {
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #e4b326; 
+}

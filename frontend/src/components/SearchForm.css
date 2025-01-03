@@ -1,0 +1,56 @@
+/* Container that holds the form */
+.form-container {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Form styles */
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px; 
+}
+
+/* Search input field */
+.search-input-1, .search-input-2 {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #bbb9b9; 
+    border-radius: 25px; /* Rounded edges */
+    outline: none;
+}
+
+/* Search input focus */
+.search-input-1:focus, .search-input-2:focus {
+    border-color: #6d1919; 
+}
+
+.search-input-1 {
+    width: 100%;
+}
+
+/* Search button */
+.search-button {
+    background-color: #b22a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.search-button:hover {
+    background-color: #6d1919;
+}
+
+textarea {
+    resize: none;
+}
